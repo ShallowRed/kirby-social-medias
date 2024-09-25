@@ -1,0 +1,28 @@
+name: Liens vers les réseaux sociaux
+
+icon: chat
+
+preview: fields
+wysiwyg: true
+
+fields:
+  socialmedialist:
+    label: Réseaux sociaux
+    type: structure
+    columns:
+      name: true
+      url: true
+      icon: true
+    fields:
+      name:
+        label: Nom
+        type: text
+        required: true
+      url:
+        label: URL
+        type: url
+        required: true
+      icon:
+        label: Icône
+        type: text
+        required: true
